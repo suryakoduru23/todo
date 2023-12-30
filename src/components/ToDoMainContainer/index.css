@@ -1,0 +1,359 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+.main-container {
+  background-color: #eef5ff;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1px;
+}
+.left-main-container {
+  width: 300px;
+  /*  box-shadow: 1px 0px 4px 0px #6d9ff2; */
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.task-heading-container-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  /* box-shadow: 0px 0px 5px 0px #6d9ff2; */
+}
+.task-heading-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0px;
+}
+.icon-setting-style {
+  color: #6d9ff2;
+  height: 28px;
+  width: 28px;
+  margin-top: 0px;
+}
+.task-board-heading-style {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #18191a;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.left-container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* box-shadow: 0px 0px 5px 0px #6d9ff2; */
+}
+.add-new-project-container {
+  display: flex;
+  justify-content: center;
+}
+.add-icon {
+  margin-right: 5px;
+}
+.new-project-button {
+  width: 90%;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  padding-top: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #6d9ff2;
+}
+.right-side-main-container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.heading-button-style-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+.remove-all-button-style {
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #3659e2;
+  color: #d7ddfc;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.remove-all-button-style:hover {
+  background-color: #ee46bc;
+}
+.right-todo-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+.right-todo-container-list {
+  width: 24%;
+  padding: 0px;
+  list-style-type: none;
+}
+.right-progress-container-list {
+  width: 24%;
+  padding: 0px;
+  list-style-type: none;
+}
+.right-review-container-list {
+  width: 24%;
+  padding: 0px;
+  list-style-type: none;
+}
+.right-success-container-list {
+  width: 24%;
+  padding: 0px;
+  list-style-type: none;
+}
+.right-todo-title {
+  display: flex;
+  align-items: center;
+  color: #3659e2;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.progress {
+  color: #ee46bc;
+}
+.review {
+  color: #3fa1e3;
+}
+.success {
+  color: #12bb23;
+}
+.right-unordered-items-container {
+  padding: 5px;
+  list-style-type: none;
+  border-right: 1px solid #d8e0fd;
+  height: 81vh;
+  overflow-y: scroll;
+}
+.list-add-todo-button {
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  border-width: 0px;
+  color: #3659e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-add-todo-button:hover {
+  background-color: #d7ddfc;
+  border-radius: 5px;
+}
+.list-add-progress-button {
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+  border-width: 0px;
+  color: #ee46bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-add-progress-button:hover {
+  background-color: #f8b9fa;
+  border-radius: 5px;
+}
+.list-add-review-button {
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  border-width: 0px;
+  color: #3fa1e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-add-review-button:hover {
+  background-color: #87caf6;
+  border-radius: 5px;
+}
+.list-add-complete-button {
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 10px;
+  border-width: 0px;
+  color: #12bb23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-add-complete-button:hover {
+  background-color: #84f5a2;
+  width: 100%;
+  border-radius: 5px;
+}
+.popup-container {
+  background-color: #b2cdf7;
+  width: 700px;
+  border-radius: 8px;
+  padding-bottom: 20px;
+}
+.pop-up-close-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.pop-up-main-title {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #3fa1e3;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.trigger-button {
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.pop-up-form-container {
+  width: 100%;
+}
+.pop-up-form-inner-container {
+  padding: 20px;
+}
+.pop-up-task-name-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.label-style {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.pop-up-input-text {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #232323;
+  margin-top: 10px;
+}
+.pop-up-dates-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.start-date-container {
+  width: 49%;
+}
+.start-date-input-field {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #232323;
+  margin-top: 10px;
+}
+.status-field {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #232323;
+  margin-top: 10px;
+}
+.form-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+.form-each-button {
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #3fa1e3;
+  background-color: transparent;
+  border-width: 0px;
+}
+.form-each-add-button {
+  background-color: #3659e2;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 10px;
+}
+.error-msg {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: red;
+}

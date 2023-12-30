@@ -1,0 +1,15 @@
+.project-button-style {
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #cadcfa;
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 10px;
+  text-align: left;
+}
